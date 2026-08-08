@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const API_BASE = "https://mental-health-score99.onrender.com";
+  const API_BASE = "https://mental-health-score91.onrender.com";
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
