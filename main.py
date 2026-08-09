@@ -41,11 +41,11 @@ class PredictionResponse(BaseModel):
 
 
 
-@app.get("/")
+@app.get('/')
 def greet():
     return {
-        "message": "Welcome to the NYC Airbnb Room Type Predictor API",
-        "status": "API is running successfully"
+        'message': 'Welcome to the Mental Health Score Prediction API',
+        'status': 'API is running'
     }
 
 
